@@ -11,6 +11,7 @@ class AtlassianDevbox < Formula
 
   def install
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+    system "npm", "run", "postinstall"
     bin.install_symlink Dir["#{libexec}/bin/*"]
   end
 
