@@ -3,8 +3,8 @@ require "language/node"
 class AtlassianDevbox < Formula
   desc "Atlassian enterprise products development tools"
   homepage "https://viqueen.org/notes/atlassian-devbox/"
-  url "https://registry.npmjs.org/atlassian-devbox/-/atlassian-devbox-1.0.1.tgz"
-  sha256 "52b4523b3b03ca70270801bcf2dfd6a73fc8d8d86124e32687e918a0e9585e54"
+  url "https://registry.npmjs.org/atlassian-devbox/-/atlassian-devbox-1.0.2.tgz"
+  sha256 "4729255b8280f6363a78f8cbc910e32549a768003d5cc18c34dc375a862fb1a1"
   license "Apache-2.0"
 
   depends_on "node"
