@@ -14,19 +14,9 @@ brew install atlassian-devbox
 
 ### update on new releases
 
-* get latest package url, and sha
+* run the following
 ```bash
-npm view atlassian-devbox dist.tarball
-curl -O <package-url>
+node upgrade.js
 ```
 
-* get and compare sha checksum
-```bash
-npm view atlassian-devbox dist.shasum
-shasum <package>
-```
-
-* get sha256 checksum
-```bash
-shasum -a 256 <package>
-```
+* commit the updates to `atlassian-devbox.rb` file
